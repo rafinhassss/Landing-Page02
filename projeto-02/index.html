@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <title>Landing Page</title>
+</head>
+<body>
+    <nav id="Principal">
+        <div id="menu">
+            <a href="#">Home</a>
+            <a href="#">Ultimas Edições</a>
+            <a href="#">Requisitos para Participar</a>
+        </div>
+        <button>Login</button>
+    </nav>
+    <section>
+        <header>
+            <h1>Bootcamp dnc</h1>
+            <h2>
+                Esse será um evento exclusivo para todos os alunos <br> 
+                da DNC, que querem <b class="inverter">acelerar a carreira</b> com uma <br>
+                semana intensiva de conteúdo de mercado entre <br> 
+                <b class="inverter">BACK-END, FRONT-END & BANCO DE DADOS.</b>
+            </h2>
+        </header>
+        <form action="#" id="formulario">
+            <div class="form-group">
+                <label>Nome:</label><br>
+                <input type="text" placeholder="Insira seu nome aqui" name="Nome" required>
+            </div>
+            <div class="form-group">
+                <label>Sobrenome:</label><br>
+                <input type="text" placeholder="Insira seu sobrenome aqui" name="Sobrenome" required>
+            </div>
+            <div class="form-group">
+                <label>Area de Interesse:</label> <br>
+                <div class="check-box">
+                    <input required type="checkbox" > Front-End
+                    <input required type="checkbox" > Back-End
+                    <input required type="checkbox" > Banco de Dados
+                </div>
+            </div>
+            <div class="form-group">
+                <label>E-mail:</label> <br>
+                <input type="text" placeholder="Insira seu e-mail aqui" name="e-mail" required>
+            </div>
+            <div class="form-group">
+                <label>telefone:</label> <br>
+                <input type="number" placeholder="(99) 9999-99999" name="telefone" required>
+            </div>
+            <div class="form-group">
+                <label>Insira uma frase criativa:</label> <br>
+                <input type="text" placeholder="Qual frase criativa voce gostaria de falar? :)">
+            </div>
+            <input id="button" type="submit" value="Cadastrar">
+        </form>
+    </section>
+    <section id="final">
+        <footer>
+            <div class="links">
+                <h2 class="titulo01">Escolas</h2> <br>
+                <a href="#">Formação em Tecnologia</a> <br>
+                <a href="#">Formação em Marketing</a> <br>
+                <a href="#">Formação em Dados</a> <br>
+                <a href="#">Formação em Projetos</a> <br>
+                <a href="#">Formação em Produtos</a> <br>
+            </div>
+            <div class="links">
+                <h2 class="titulo02">Sobre a DNC</h2> <br> 
+                <a href="#">Historia</a> <br>
+                <a href="#">Missão e Valores</a> <br>
+                <a href="#">Trabalhe Conosco</a> <br>
+                <a href="#">Conteúdo Gratuito</a> <br>
+            </div>
+            <div>
+                <h2 class="endereço">
+                    © 2022 DTC Treinamentos & Consultoria <br>
+                    LTDA | CNPJ: 27.995.577/0001-37 | R. <br>
+                    Justino Cobra, 61 – Vila Em| São José dos <br>
+                    Campos – SP | CEP 12243-030
+                </h2>
+            </div>
+        </footer>
+        <p id="rodapé">Termos de Uso | Política de Privacidade</p>
+    </section>
+</body>
+</html>
